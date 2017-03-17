@@ -41,7 +41,7 @@ public abstract class  VehiculoTransporte extends Vehiculo
     
     //Metodo abstracto que recibe un double pero como lo tenemos creado en el padre lo que hacemos es sobreescribirlo.
     @Override
-    public abstract double alquiler ( double importe_alquiler);
+    public abstract double alquiler ();
     
     //Metodo abstracto que sobreescribimos del padre que hacemos mostrar la informacion total.
     @Override
@@ -54,7 +54,7 @@ public abstract class  VehiculoTransporte extends Vehiculo
         System.out.println("----------------------------------");
         System.out.println("Plazas alquiladas : " + this.getNumero_plazas());
         System.out.println("----------------------------------");
-        System.out.println("Importe : ");
+
     }
     
     

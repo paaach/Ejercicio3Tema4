@@ -14,8 +14,18 @@ public class Ejercicio3ED {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
         // TODO code application logic here
+        //Furgoneta f = new Furgoneta ();
+        //f.Recibo();
+        
+        Alquiler a = new Alquiler(1);
+        a.importe(0);
+        a.mostrarDatos();
+        
+        
+        
     }
     
 }

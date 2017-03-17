@@ -10,8 +10,14 @@ package ejercicio3.e.d;
  * @author David
  */
 public interface Datos 
+        
 {
+    /**
+     * Metodo abstracto que nos muestra una informacion total de los vehiculos
+     */
     public abstract void mostrarDatos();
-    
+    /**
+     * Metodo imprimir que nos imprime todo lo anterior
+     */
      public abstract void imprimir();
 }
